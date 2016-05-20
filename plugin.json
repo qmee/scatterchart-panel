@@ -1,0 +1,36 @@
+{
+  "type": "panel",
+  "name": "Scatter Chart",
+  "id": "qmee-scatterchart-panel",
+
+  "info": {
+    "description": "Scatter chart panel for grafana",
+    "author": {
+      "name": "Qmee Ltd.",
+      "url": "http://www.qmee.com"
+    },
+    "keywords": ["scatterchart", "panel"],
+    "logos": {
+      "small": "src/img/scatterchart_logo_small.png",
+      "large": "src/img/scatterchart_logo_large.png"
+    },
+    "links": [
+      {"name": "Project site", "url": "https://github.com/qmee/scatterchart-panel"},
+      {"name": "MIT License", "url": "https://github.com/qmee/scatterchart-panel/blob/master/LICENSE"}
+    ],
+    "screenshots": [
+      {"name": "Donut!", "path": "src/img/scatterchart-donut.png"},
+      {"name": "Legend on the graph", "path": "src/img/scatterchart-legend-on-graph.png"},
+      {"name": "Legend to the right", "path": "src/img/scatterchart-legend-rhs.png"},
+      {"name": "Legend underneath", "path": "src/img/scatterchart-legend-under.png"},
+      {"name": "Scatter chart options", "path": "src/img/scatterchart-options.png"}
+    ],
+    "version": "1.0.0",
+    "updated": "2016-05-10"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
